@@ -11,10 +11,19 @@ function frameIt(){
   });
 }
 
+function pressIt(){
+  $('#typing').on('keydown', function(e){
+    if(e.which === 103){
+      alert('G');
+    };
+  });
+}
+
 $(document).ready(function(){
 
 getIt();
 frameIt();
+pressIt();
 // call functions here
 
 });
