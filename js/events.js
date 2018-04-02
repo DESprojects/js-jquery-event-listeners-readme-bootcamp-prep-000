@@ -13,6 +13,7 @@ function frameIt(){
 
 function pressIt(){
   $('#typing').on('keydown', function(e){
+    console.log(e.which);
     if(e.which == 103){
       alert('G');
     };
