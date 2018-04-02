@@ -13,7 +13,7 @@ function frameIt(){
 
 function pressIt(){
   $('#typing').on('keydown', function(e){
-    if(e.which === 103){
+    if(parseInt(e.which) === 103){
       alert('G');
     };
   });
